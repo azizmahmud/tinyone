@@ -1,0 +1,241 @@
+/* font  */
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;500;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+:root{
+    --pt-sans: 'PT Sans', sans-serif;
+    --black: #010101;
+    --yellow: #fbdb00;
+    --ash:#898989;
+    --text-color: #555555;
+}
+
+/*custom css-start  */
+body{
+    font-family: var(--pt-sans);
+ 
+}
+header{
+   padding-block: 20px;
+   background-color: var(--yellow);
+}
+.menu ul li a{
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--black) !important ;
+    padding-inline: 30px !important;
+}
+.menu ul li a:hover{
+    color: #ffffff !important;
+}
+.menu ul li :last-child a{
+    padding-right: 0px !important;
+}
+/* header  */
+
+
+/* hero section start  */
+.slider{
+    background-color: var(--yellow);
+    padding-bottom: 10px;
+}
+.hero{
+    padding-bottom: 80px;
+}
+.hero-tb{
+    padding-top: 90px;
+}
+.c-headline{
+    font-size: 32px;
+    font-weight: 700;
+    color:var(--black);
+
+}
+.h-line{
+    margin-block: 20px;
+}
+.h-title{
+    max-width: 320px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #313841;
+    line-height: 120%;
+}
+.h-text{
+    max-width: 400px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--text-color);
+}
+.h-icon{
+    width: fit-content;
+    display: flex;
+    margin-top: 25px;
+
+}
+.h-icon i{
+    font-size: 42px;
+    color: var(--black);
+    margin-inline: 16px;
+    transition: all 0.33s linear;
+}
+.h-icon i:hover{
+    transform: scale(0.9);    
+}
+.h-icon i:first-child{
+    margin-left: 0px !important;
+}
+
+/* hero text end  */
+
+.hero-img{
+    max-width: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.hero-img img{
+    width: 100%;
+}
+.crs-btn{
+    height: 12px !important;
+    width: 12px !important;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.crs-btn:focus-visible{
+    outline: none !important;
+}
+
+/* slider end  */
+
+.tiny-fbox{
+    max-width: 740px;
+    text-align: center;
+    margin:90px auto ;
+}
+.ftr-text{
+    font-size: 20px;
+    font-weight: 400;
+   
+}
+.f-box{
+   max-width: fit-content;
+   margin: 0 auto 70px;
+   display: flex;
+   
+}
+.f-box2{
+    max-width: 220px;
+    padding-left: 20px;
+}
+.f-box2 h5{
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--black);
+    margin-bottom: 4px;
+
+}
+.f-box2 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ash);
+}
+
+/* features section end  */
+
+.footer{
+    background-color: var(--black);
+    padding-block: 100px 70px;
+}
+.contact{
+    max-width: 740px;
+    margin: 0 auto;
+}
+.f-h-line{
+    text-align: center;
+    color:var(--yellow);
+    margin-bottom: 20px;
+
+}
+.fc-text{
+    
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--ash);
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+
+form{
+   max-width: 740px;
+   display: flex;
+}
+
+.e-input{
+    width: 74%;
+    height: 45px;
+    border: none;
+    border-radius: 4px;
+    padding-left: 20px;
+   
+}
+.e-input:focus{
+    outline: none;
+}
+.sub-btn{
+    width: 20%;
+    height: 45px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--yellow);
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 5%;
+  
+}
+.f-icon-box{
+    width: fit-content;
+    display: flex;
+    margin: 70px auto 0;
+}
+.f-icon{
+    width: 36px;
+    margin-inline: 20px;
+}
+
+/* footer start  */
+
+.f-container{
+    padding-top: 70px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-copy{
+    color:#ffffff92;
+}
+.footer-copy p{
+    line-height: 20px;
+}
+.footer-bw{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffffb4;
+    padding-right: 150px;
+}
+.footer-box a{
+    text-decoration: none;
+   color:#ffffffb4;
+    cursor: pointer;
+    transition: all .5s linear;
+    display: block;
+    margin-bottom: 4px;
+}
+.footer-box a:hover{
+    color: #fff;
+    text-decoration: underline;
+    
+}
