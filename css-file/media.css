@@ -117,9 +117,12 @@
     .f-icon-box{
         margin-block: 50px 0;
     }
-    .f-icon {
-        width: 28px;
-        margin-inline: 15px
+    .f-icon{
+        margin-inline: 10px;
+    }
+    .f-icon a i{
+        font-size: 30px;
+        color: #FBDB00;
     }
     
     /* footer start  */

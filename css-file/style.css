@@ -203,8 +203,12 @@ form{
     margin: 70px auto 0;
 }
 .f-icon{
-    width: 36px;
-    margin-inline: 20px;
+    margin-inline: 16px;
+}
+
+.f-icon a i{
+    font-size: 40px;
+    color: #FBDB00;
 }
 
 /* footer start  */
